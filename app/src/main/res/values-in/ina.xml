@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="tabLayout1">Film</string>
+    <string name="tabLayout2">Acara TV</string>
+
+    <string name="description">Deskripsi</string>
+    <string name="score">76</string>
+    <string name="nametitle">How to Train Your Dragon</string>
+    <string name="language_settings">Bahasa</string>
+    <string name="titlename">Ini adalah sebuah poster</string>
+</resources>

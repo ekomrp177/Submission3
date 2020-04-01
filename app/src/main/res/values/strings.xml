@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="tabLayout1">Movie</string>
+    <string name="tabLayout2">TV Show</string>
+
+    <string name="description">Description</string>
+    <string name="score">76</string>
+    <string name="nametitle">How to Train Your Dragon</string>
+    <string name="language_settings">Language</string>
+    <string name="titlename">This is a poster</string>
+</resources>

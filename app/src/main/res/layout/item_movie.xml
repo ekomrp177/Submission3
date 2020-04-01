@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/space_16dp">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:id="@+id/img_photomovie"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/nametitle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_namemovie"
+        android:maxLines="3"
+        android:layout_marginStart="@dimen/space_26dp"
+        android:layout_toEndOf="@+id/img_photomovie"
+        android:text="@string/nametitle"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_descriptionmovie"
+        android:layout_below="@+id/tv_namemovie"
+        android:layout_toEndOf="@+id/img_photomovie"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="@dimen/space_26dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/description"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_scoremovie"
+        android:layout_marginStart="26dp"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/img_photomovie"
+        android:text="@string/score"/>
+
+</RelativeLayout>
